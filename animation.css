@@ -1,0 +1,60 @@
+#sub-header .row div:first-child {
+    -webkit-animation: anim 2s;
+            animation: anim 2s;
+}
+#sub-header .row div:last-child {
+    -webkit-animation: anim-block 2s;
+            animation: anim-block 2s;
+}
+.wrapper {
+    -webkit-animation: anim-button 5s;
+        animation: anim-button 5s;
+}
+@-webkit-keyframes anim {
+    0% {
+      left: 500%;
+    }
+    100% {
+      left: 0%;
+    }
+  }
+@keyframes anim {
+    0% {
+        left: 500%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+@-webkit-keyframes anim-block {
+    0% {
+        right: 500%;
+    }
+    100% {
+        right: 0%;
+    }
+}
+@keyframes anim-block {
+    0% {
+        right: 500%;
+    }
+    100% {
+        right: 0%;
+    }
+}
+@-webkit-keyframes anim-button {
+    0% {
+        background-color: #fff;
+    }
+    100% {
+        background-color: #E0D3D8;
+    }
+}
+@keyframes anim-button {
+    0% {
+        background-color: grey;
+    }
+    100% {
+        background-color: #E0D3D8;
+    }
+}
